@@ -24,14 +24,13 @@ Insights:
 
 There are 18 research papers and 14 patent variants. Every research paper will be summarized in depth, but the patents will only be summarized in final form. Any interesting modifications since the first variant will be noted. Papers are sorted by date of publication, while patents are sorted by date of filing.
 
-Contents:
-- Papers:
+Papers:
   - [x] [Theoretical Analysis of a Carbon-Carbon Dimer Placement Tool for Diamond Mechanosynthesis](#2003--theoretical-analysis-of-a-carbon-carbon-dimer-placement-tool-for-diamond-mechanosynthesis)
   - [ ] A Simple Tool for Positional Diamond Mechanosynthesis, and its Method of Manufacture
   - [ ] Theoretical Analysis of Diamond Mechanosynthesis. Part I. Stability of C<sub>2</sub> Mediated Growth of Nanocrystalline Diamond C(110) Surface
   - [ ] Theoretical Analysis of Diamond Mechanosynthesis. Part II. C<sub>2</sub> Mediated Growth of Diamond C(110) Surface via Si/Ge-Triadamantane Dimer Placement Tools
   - [ ] Theoretical Analysis of Diamond Mechanosynthesis. Part III. Positional C<sub>2</sub> Deposition on Diamond C(110) Surface using Si/Ge/Sn-based Dimer Placement Tools
-- Patents:
+Patents:
   - [ ] Atomically-Precise Products and Methods and Systems for Manufacturing the Same
   - [ ] Systems and Methods for Mechanosynthesis
 
