@@ -44,7 +44,7 @@ Some of these references include patents awarded to Zyvex. This time span in the
 <div align="center">
 
 | Years | Activity |
-| :---: | :------" |
+| :---: | :------: |
 | 1996&ndash;2003 | <b>Nanomedicine</b>, Vol. 1 & 2A |
 | 2003&ndash;2010 | <b>Mechanosynthesis</b>, "Zyvex Era" |
 | 2010&ndash;2012 | <b>Mechanosynthesis</b>, Kazan Federal University |
@@ -107,7 +107,7 @@ The trail of intellectual property begins with the _Nanofactory Corporation_, an
    </td>
   </tr>
   <tr>
-   <td colspan="2"><p align="center">July 7, 2016</p>
+   <td colspan="2"><p align="center">Jul 7, 2016</p>
    </td>
    <td colspan="2"><p align="center">US10138172</p>
    </td>
@@ -125,7 +125,7 @@ The trail of intellectual property begins with the _Nanofactory Corporation_, an
    </td>
   </tr>
   <tr>
-   <td colspan="2"><p align="center">April 16, 2019</p>
+   <td colspan="2"><p align="center">Apr 16, 2019</p>
    </td>
    <td colspan="2"><p align="center">US10822230</p>
    </td>
