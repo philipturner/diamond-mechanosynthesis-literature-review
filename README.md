@@ -1,4 +1,4 @@
-<dev align="center">
+<div align="center">
 
 # Studies of Diamond Mechanosynthesis and Computational Methods Employed
 
@@ -52,9 +52,9 @@ Some of these references include patents awarded to Zyvex. This time span in the
 | 2016&ndash;Present\* | <b>Mechanosynthesis</b>, "CBN Era" |
 | 2020&ndash;2022 | <b>Nanomedicine</b>, Cryostasis Revival |
 
-_Rough timeline categorizing Robert Freitas’s activity in published literature. *There is a ~2 year delay between patent filing and granting. Patents created in 2022 will not materialize until roughly 2024._
-
 </div>
+
+_Rough timeline categorizing Robert Freitas’s activity in published literature. *There is a ~2 year delay between patent filing and granting. Patents created in 2022 will not materialize until roughly 2024._
 
 Literature:
 
@@ -182,9 +182,10 @@ The trail of intellectual property begins with the _Nanofactory Corporation_, an
   </tr>
 </table>
 
+</div>
+
 _For each entry, the PDF with images is available at: https://patents.google.com/patent/ID_
 
-</div>
 
 ## 2003 &mdash; Theoretical Analysis of a Carbon-Carbon Dimer Placement Tool for Diamond Mechanosynthesis
 
