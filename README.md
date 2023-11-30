@@ -30,6 +30,7 @@ Papers:
   - [ ] Theoretical Analysis of Diamond Mechanosynthesis. Part I. Stability of C<sub>2</sub> Mediated Growth of Nanocrystalline Diamond C(110) Surface
   - [ ] Theoretical Analysis of Diamond Mechanosynthesis. Part II. C<sub>2</sub> Mediated Growth of Diamond C(110) Surface via Si/Ge-Triadamantane Dimer Placement Tools
   - [ ] Theoretical Analysis of Diamond Mechanosynthesis. Part III. Positional C<sub>2</sub> Deposition on Diamond C(110) Surface using Si/Ge/Sn-based Dimer Placement Tools
+
 Patents:
   - [ ] Atomically-Precise Products and Methods and Systems for Manufacturing the Same
   - [ ] Systems and Methods for Mechanosynthesis
@@ -192,6 +193,8 @@ Journal of Nanoscience and Nanotechnology: [doi.org/10.1166/jnn.2003.203](https:
 
 This appears to be a learning experience, where Robert Freitas got acquainted with quantum chemistry techniques. Density functional theory was used to perform energy minimizations on different tooltips. The "DCB", or dicarbon bridge, was established as one of a combinatorial explosion of possible tooltips. It was simple to reason about: two adamantane cages in a rigid diamond lattice. Two carbon atoms were substituted with other group (IV) elements, which form weaker bonds with the feedstock. The germanium variant, "DCB6-Ge", is frequently referenced in later literature.
 
+<div align="center">
+
 <p align="center">
 &nbsp;
   <img alt="DCB6-Si dimer placement tool tip" src="./Documentation/JNNDimerTool_1.png" width="45%">
@@ -200,7 +203,7 @@ This appears to be a learning experience, where Robert Freitas got acquainted wi
   &nbsp;
 </p>
 
-<div align="center">
+_Figures from the research paper._
 
 | Particle | Quantity | 4-Fold Symmetry |
 | :------: | :------: | :-------------: |
@@ -210,7 +213,7 @@ This appears to be a learning experience, where Robert Freitas got acquainted wi
 | e<sup>-</sup> | 112 | ~28             |
 | Atom     | 46       | ~12             |
 
-_System: DCB6-Si dimer placement tool tip_
+_System: DCB6-Si dimer placement tool tip._
 
 </div>
 
