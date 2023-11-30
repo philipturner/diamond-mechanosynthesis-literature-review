@@ -87,97 +87,97 @@ The trail of intellectual property begins with the _Nanofactory Corporation_, an
  <tr>
    <td><strong><p align="center">Title</p></strong>
    </td>
-   <td>&nbsp; &nbsp; &nbsp; <div><strong><p align="center">Date Filed</p></strong></div> &nbsp; &nbsp; &nbsp;
+   <td colspan="2"><div><strong><p align="center">Date Filed</p></strong></div>
    </td>
-   <td>&nbsp; &nbsp; &nbsp; <div><strong><p align="center">ID</p></strong></div> &nbsp; &nbsp; &nbsp;
+   <td colspan="2"><strong><p align="center">ID</p></strong>
    </td>
   </tr>
   <tr>
    <td rowspan="7"><p align="center">Atomically-Precise Products and Methods and Systems for Manufacturing the Same</p>
    </td>
-   <td>Feb 28, 2013
+   <td colspan="2"><p align="center">Feb 28, 2013</p>
    </td>
-   <td>US20130178626
-   </td>
-  </tr>
-  <tr>
-   <td>Feb 22, 2016
-   </td>
-   <td>US10308514
+   <td colspan="2"><p align="center">US20130178626</p>
    </td>
   </tr>
   <tr>
-   <td>July 7, 2016
+   <td colspan="2"><p align="center">Feb 22, 2016</p>
    </td>
-   <td>US10138172
-   </td>
-  </tr>
-  <tr>
-   <td>May 5, 2017
-   </td>
-   <td>US10197597
+   <td colspan="2"><p align="center">US10308514</p>
    </td>
   </tr>
   <tr>
-   <td>Nov 7, 2017
+   <td colspan="2"><p align="center">July 7, 2016</p>
    </td>
-   <td>US10309985
-   </td>
-  </tr>
-  <tr>
-   <td> April 16, 2019
-   </td>
-   <td>US10822230
+   <td colspan="2"><p align="center">US10138172</p>
    </td>
   </tr>
   <tr>
-   <td>Sep 29, 2020
+   <td colspan="2"><p align="center">May 5, 2017</p>
    </td>
-   <td>US11155461
+   <td colspan="2"><p align="center">US10197597</p>
+   </td colspan="2">
+  </tr>
+  <tr>
+   <td colspan="2"><p align="center">Nov 7, 2017</p>
+   </td>
+   <td colspan="2"><p align="center">US10309985</p>
+   </td>
+  </tr>
+  <tr>
+   <td colspan="2"><p align="center">April 16, 2019</p>
+   </td>
+   <td colspan="2"><p align="center">US10822230</p>
+   </td>
+  </tr>
+  <tr>
+   <td colspan="2"><p align="center">Sep 29, 2020</p>
+   </td>
+   <td colspan="2"><p align="center">US11155461</p>
    </td>
   </tr>
   <tr>
    <td rowspan="7"><p align="center">Systems and Methods for Mechanosynthesis</p>
    </td>
-   <td>May 12, 2016
+   <td colspan="2"><p align="center">May 12, 2016</p>
    </td>
-   <td>US10072031
-   </td>
-  </tr>
-  <tr>
-   <td>Nov 16, 2016
-   </td>
-   <td>US10067160
+   <td colspan="2"><p align="center">US10072031</p>
    </td>
   </tr>
   <tr>
-   <td>Nov 13, 2017
+   <td colspan="2"><p align="center">Nov 16, 2016</p>
    </td>
-   <td>US10822229
-   </td>
-  </tr>
-  <tr>
-   <td>Aug 2, 2018
-   </td>
-   <td>US11180514
+   <td colspan="2"><p align="center">US10067160</p>
    </td>
   </tr>
   <tr>
-   <td>Sep 29, 2020
+   <td colspan="2"><p align="center">Nov 13, 2017</p>
    </td>
-   <td>US11148944
-   </td>
-  </tr>
-  <tr>
-   <td>Sep 14, 2021
-   </td>
-   <td>US11592463
+   <td colspan="2"><p align="center">US10822229</p>
    </td>
   </tr>
   <tr>
-   <td>Nov 22, 2021
+   <td colspan="2"><p align="center">Aug 2, 2018</p>
    </td>
-   <td>US11708384
+   <td colspan="2"><p align="center">US11180514</p>
+   </td>
+  </tr>
+  <tr>
+   <td colspan="2"><p align="center">Sep 29, 2020</p>
+   </td>
+   <td colspan="2"><p align="center">US11148944</p>
+   </td>
+  </tr>
+  <tr>
+   <td colspan="2"><p align="center">Sep 14, 2021</p>
+   </td>
+   <td colspan="2"><p align="center">US11592463</p>
+   </td>
+  </tr>
+  <tr>
+   <td colspan="2"><p align="center">Nov 22, 2021</p>
+   </td>
+   <td colspan="2"><p align="center">US11708384</p>
    </td>
   </tr>
 </table>
