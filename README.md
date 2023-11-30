@@ -44,7 +44,7 @@ Some of these references include patents awarded to Zyvex. This time span in the
 <div align="center">
 
 | Years | Activity |
-| ----- | -------- |
+| :---: | :------" |
 | 1996&ndash;2003 | <b>Nanomedicine</b>, Vol. 1 & 2A |
 | 2003&ndash;2010 | <b>Mechanosynthesis</b>, "Zyvex Era" |
 | 2010&ndash;2012 | <b>Mechanosynthesis</b>, Kazan Federal University |
@@ -85,7 +85,7 @@ The trail of intellectual property begins with the _Nanofactory Corporation_, an
 
 <table>
  <tr>
-   <td style="width: 50%"><strong><p align="center">Title</p></strong>
+   <td> <div style="width:40%"><strong><p align="center">Title</p></strong></div>
    </td>
    <td><strong><p align="center">Date Filed</p></strong>
    </td>
@@ -93,7 +93,7 @@ The trail of intellectual property begins with the _Nanofactory Corporation_, an
    </td>
   </tr>
   <tr>
-   <td rowspan="7" style="width: 50%"><p align="center">Atomically-Precise Products and Methods and Systems for Manufacturing the Same</p>
+   <td rowspan="7"><div style="width:40%"><p align="center">Atomically-Precise Products and Methods and Systems for Manufacturing the Same</p></div>
    </td>
    <td>Feb 28, 2013
    </td>
@@ -137,7 +137,7 @@ The trail of intellectual property begins with the _Nanofactory Corporation_, an
    </td>
   </tr>
   <tr>
-   <td rowspan="7" style="width: 50%"><p align="center">Systems and Methods for Mechanosynthesis</p>
+   <td rowspan="7"><div style="width:40%"><p align="center">Systems and Methods for Mechanosynthesis</p></div>
    </td>
    <td>May 12, 2016
    </td>
@@ -204,7 +204,7 @@ This appears to be a learning experience, where Robert Freitas got acquainted wi
 <div align="center">
 
 | Particle | Quantity | 4-Fold Symmetry |
-| -------- | -------- | --------------- |
+| :------: | :------: | :-------------: |
 | H        | 24       |                 |
 | C        | 20       |                 |
 | Si       | 2        |                 |
@@ -218,7 +218,7 @@ This appears to be a learning experience, where Robert Freitas got acquainted wi
 Single-point energy calculations were used to show that undesired bonding arrangements are energetically unfavorable. The tip mostly likely holds the carbon dimer in the horizontal configuration, as designed. An ab initio energy minimization was also performed to test tooltip stability. Single-point energy calculations were used to measure the singlet-triplet energy gap, showing the triplet state is energetically unfavorable. Ab initio molecular dynamics was used to show that the tooltip doesn't dissociate due to thermal motion. The simulation was performed at an extremely high temperature, 1000 K. This is near the thermal decomposition temperature of diamond.
 
 | Algorithm      | Software    | Usage | Data |
-| -------------- | ----------- | ----- | ---- |
+| :------------: | :---------: | :---: | :--: |
 | Plane-Wave DFT | Gaussian 98 | Single-point energy calculation | 55 energies reported
 | Plane-Wave DFT | Gaussian 98 | Energy minimization | "two minima" |
 | MM2 Variant    | HyperChem   | Energy minimization | "several candidate minima" |
