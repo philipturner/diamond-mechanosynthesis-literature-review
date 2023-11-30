@@ -85,15 +85,15 @@ The trail of intellectual property begins with the _Nanofactory Corporation_, an
 
 <table>
  <tr>
-   <td> <div style="width:40%"><strong><p align="center">Title</p></strong></div>
+   <td><strong><p align="center">Title</p></strong>
    </td>
-   <td><strong><p align="center">Date Filed</p></strong>
+   <td>&nbsp; &nbsp; &nbsp; <div><strong><p align="center">Date Filed</p></strong></div> &nbsp; &nbsp; &nbsp;
    </td>
-   <td><strong><p align="center">ID</p></strong>
+   <td>&nbsp; &nbsp; &nbsp; <div><strong><p align="center">ID</p></strong></div> &nbsp; &nbsp; &nbsp;
    </td>
   </tr>
   <tr>
-   <td rowspan="7"><div style="width:40%"><p align="center">Atomically-Precise Products and Methods and Systems for Manufacturing the Same</p></div>
+   <td rowspan="7"><p align="center">Atomically-Precise Products and Methods and Systems for Manufacturing the Same</p>
    </td>
    <td>Feb 28, 2013
    </td>
@@ -137,7 +137,7 @@ The trail of intellectual property begins with the _Nanofactory Corporation_, an
    </td>
   </tr>
   <tr>
-   <td rowspan="7"><div style="width:40%"><p align="center">Systems and Methods for Mechanosynthesis</p></div>
+   <td rowspan="7"><p align="center">Systems and Methods for Mechanosynthesis</p>
    </td>
    <td>May 12, 2016
    </td>
