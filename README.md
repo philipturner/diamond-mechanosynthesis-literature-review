@@ -211,11 +211,13 @@ This appears to be a learning experience, where Robert Freitas got acquainted wi
 | e<sup>-</sup> | 112 | ~28             |
 | Atom     | 46       | ~12             |
 
-<i>System: DCB6-Si dimer placement tool tip</i>
+_System: DCB6-Si dimer placement tool tip_
 
 </div>
 
 Single-point energy calculations were used to show that undesired bonding arrangements are energetically unfavorable. The tip mostly likely holds the carbon dimer in the horizontal configuration, as designed. An ab initio energy minimization was also performed to test tooltip stability. Single-point energy calculations were used to measure the singlet-triplet energy gap, showing the triplet state is energetically unfavorable. Ab initio molecular dynamics was used to show that the tooltip doesn't dissociate due to thermal motion. The simulation was performed at an extremely high temperature, 1000 K. This is near the thermal decomposition temperature of diamond.
+
+<div align="center">
 
 | Algorithm      | Software    | Usage | Data |
 | :------------: | :---------: | :---: | :--: |
@@ -224,5 +226,7 @@ Single-point energy calculations were used to show that undesired bonding arrang
 | MM2 Variant    | HyperChem   | Energy minimization | "several candidate minima" |
 | Plane-Wave DFT | VASP        | Molecular dynamics | 5 ps |
 | AM1 SEQM       | VASP        | Molecular dynamics | 200 ps |
+
+</div>
 
 Only six months later, Robert would file the first patent on diamond mechanosynthesis.
