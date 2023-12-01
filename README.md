@@ -10,7 +10,7 @@ Philip Turner
 
 ## Introduction
 
-This literature review was created to investigate computational methods used to study mechanosynthesis. It only covers documents published by Robert Freitas, Jr. Before conducting the review, the author learned that density functional theory (DFT) is the dominant simulation algorithm.
+This literature review was created to investigate computational methods used to study mechanosynthesis. Before conducting it, the author learned that density functional theory (DFT) is the dominant simulation algorithm. The review covers every document published by Robert Freitas, Jr.
 
 Data:
 - Each instance of supercomputer use should be thoroughly documented. 
@@ -22,11 +22,11 @@ Insights:
 - Inherent lack of parallelism in certain algorithms or at small system sizes (compute power per isolated simulation).
 - Rough quantification of energy error for different levels of theory, and what amount of error is tolerable.
 
-There are 18 research papers and 14 patent variants. Every research paper will be summarized in depth, but the patents will only be summarized in final form. Any interesting modifications since the first variant will be noted. Papers are sorted by date of publication, while patents are sorted by date of filing.
+There are 15 research papers and 17 patent variants. Every research paper will be summarized in depth. Patents will be summarized in final form. An exception is US7687146, summarized from Robert's dedicated web page. Papers are sorted by date of publication; patents are sorted by date of filing.
 
 Papers:
   - [x] [Theoretical Analysis of a Carbon-Carbon Dimer Placement Tool for Diamond Mechanosynthesis](#2003--theoretical-analysis-of-a-carbon-carbon-dimer-placement-tool-for-diamond-mechanosynthesis)
-  - [ ] A Simple Tool for Positional Diamond Mechanosynthesis, and its Method of Manufacture
+  - [ ] [A Simple Tool for Positional Diamond Mechanosynthesis, and its Method of Manufacture](#2004--a-simple-tool-for-positional-diamond-mechanosynthesis-and-its-method-of-manufacture)
   - [ ] Theoretical Analysis of Diamond Mechanosynthesis. Part I. Stability of C<sub>2</sub> Mediated Growth of Nanocrystalline Diamond C(110) Surface
   - [ ] Theoretical Analysis of Diamond Mechanosynthesis. Part II. C<sub>2</sub> Mediated Growth of Diamond C(110) Surface via Si/Ge-Triadamantane Dimer Placement Tools
   - [ ] Theoretical Analysis of Diamond Mechanosynthesis. Part III. Positional C<sub>2</sub> Deposition on Diamond C(110) Surface using Si/Ge/Sn-based Dimer Placement Tools
@@ -39,17 +39,16 @@ Patents:
 
 Robert Freitas first started researching diamond mechanosynthesis in 2003, in collaboration with Ralph Merkle. He published several papers, most in the _Journal of Computational and Theoretical Nanoscience_. The trail of papers stopped abruptly in 2013. This was the same year that Freitas and Merkle published a precursor to one of the CBN patents. The document, US20130178626, was abandoned after the patent office received no response in 2017.
 
-Some of these references include patents awarded to Zyvex. This time span in the patent timeline shall be referred to as the “Zyvex Era”. The next round of patent literature is the “CBN Era”. Only the latter is documented in the next section.
-
 <div align="center">
 
 | Years | Activity |
 | :---: | :------: |
 | 1996&ndash;2003 | <b>Nanomedicine</b>, Vol. 1 & 2A |
-| 2003&ndash;2010 | <b>Mechanosynthesis</b>, "Zyvex Era" |
+| 2003&ndash;2004 | <b>Mechanosynthesis</b>, Zyvex |
+| 2006&mdash;2008 | <b>Mechanosynthesis</b>, Nanofactory Collaboration |
 | 2010&ndash;2012 | <b>Mechanosynthesis</b>, Kazan Federal University |
 | 2012&ndash;2015 | <b>Nanomedicine</b>, Vol. 2B & 3 (Unpublished) |
-| 2016&ndash;Present\* | <b>Mechanosynthesis</b>, "CBN Era" |
+| 2016&ndash;Present\* | <b>Mechanosynthesis</b>, CBN Nano Technologies |
 | 2020&ndash;2022 | <b>Nanomedicine</b>, Cryostasis Revival |
 
 </div>
@@ -191,7 +190,7 @@ _For each entry, the PDF with images is available at: https://patents.google.com
 
 Journal of Nanoscience and Nanotechnology: [doi.org/10.1166/jnn.2003.203](https://doi.org/10.1166/jnn.2003.203)
 
-This appears to be a learning experience, where Robert Freitas got acquainted with quantum chemistry techniques. Density functional theory was used to perform energy minimizations on different tooltips. The "DCB", or dicarbon bridge, was established as one of a combinatorial explosion of possible tooltips. It was simple to reason about: two adamantane cages in a rigid diamond lattice. Two carbon atoms were substituted with other group (IV) elements, which form weaker bonds with the feedstock. The germanium variant, "DCB6-Ge", is frequently referenced in later literature.
+This appears to be a learning experience, where Robert Freitas got acquainted with quantum chemistry techniques. Density functional theory was used to perform energy minimizations on different tooltips. The "DCB", or dicarbon bridge, was established as one of a combinatorial explosion of possible tooltips. It was simple to reason about: three adamantane cages in a rigid diamond lattice. Two carbon atoms were substituted with other group (IV) elements, which form weaker bonds with the feedstock. The germanium variant, "DCB6-Ge", is frequently referenced in later literature.
 
 <div align="center">
 
@@ -203,15 +202,15 @@ This appears to be a learning experience, where Robert Freitas got acquainted wi
   &nbsp;
 </p>
 
-_Figures from the research paper._
+_Tool tip structures examined in the research paper._
 
 | Particle | Quantity | 4-Fold Symmetry |
 | :------: | :------: | :-------------: |
 | H        | 24       |                 |
 | C        | 20       |                 |
 | Si       | 2        |                 |
-| e<sup>-</sup> | 112 | ~28             |
 | Atom     | 46       | ~12             |
+| Electron | 112      | ~28             |
 
 _System: DCB6-Si dimer placement tool tip._
 
@@ -232,3 +231,64 @@ Single-point energy calculations were used to show that undesired bonding arrang
 </div>
 
 Only six months later, Robert would file the first patent on diamond mechanosynthesis.
+
+## 2004 &mdash; A Simple Tool for Positional Diamond Mechanosynthesis, and its Method of Manufacture
+
+United States Patent and Trademark Office: [US7687146](https://patents.google.com/patent/US7687146)
+
+> TODO: Once the entire paper is analyzed, write a summary.
+
+### Step 1: Synthesis of Capped Tooltip Molecule
+
+The triadamantane cluster can be synthesized with a myriad of organic chemistry techniques. Variants with silicon and germanium can be created the similarly. While in solution, protective groups must cap the reactive acetylene group. Freitas had to choose between a very large number of possible caps.
+
+<div align="center">
+
+![Figure 3](./Documentation/DMSToolbuildProvPat_1.png)
+
+_DCB-Ge tooltip molecule capped with iodine atoms._
+
+</div>
+
+Four relevant factors when choosing the capping group:
+1) Loosely bound, forms the desired geometry, and simple to synthesize.
+2) Should not spontaneously dimerize in solution phase.
+3) Should not spontaneously recombine into the adamantane base of other tips.
+4) Should not spontaneously react with solvent or other molecules involved in synthesis.
+
+Freitas listed each functional group that satisfied each reliability constraint. Iodine, bromine, and a few other groups met all constraints.
+
+<div align="center">
+
+![Figures 4, 5, and 6](./Documentation/DMSToolbuildProvPat_2.png)
+
+_Various misreactions studied with semiempirical quantum mechanics._
+
+</div>
+
+Usage of the AM1 semiempirical model:
+- Energy minimization of different stages of the tip dimerization reaction. PM3 or MNDO semiempirical models were used instead for some cases containing Na, Mg, and Se. All calculations were over the DCB6-Ge variant. ~204 minimized energies were reported in Table 3. 
+- Another round of analysis was performed for a different dimerization pathway. Here, the dimers don’t attack each other, but some other nearby atoms on the tooltip. The end product is less symmetrical. This reaction was described as “kinetically accessible” due to the size of the simulated energy barrier. ~198 minimized energies were reported in Table 4.
+- Studied recombination reactions between DCB6-Ge and octane. ~112 minimized energies were reported in Table 5.
+
+In another Freitas paper, plane-wave DFT was used to study dimerization of uncapped tooltips. Differences in energy between the stages of dimerization were reported. Systems included DCB6-Si and DCB6-Ge. It was not stated whether these were energy minimizations or single-point energy calculations. Electron correlation errors may have created an overly optimistic estimate of resistance to dimerization. Inaccurate correlation energies are an issue with existing DFT simulators, which could be fixed with a more robust exchange-correlation potential ([DM21](https://github.com/google-deepmind/deepmind-research/tree/master/density_functional_approximation_dm21)). 6 energy measurements were quoted for symmetric dimerization, and 2 for asymmetric. The actual paper could include many more energies.
+
+<div align="center">
+
+| Particle | DCB6-Ge-I<sub>2</sub> | Octane |
+| :------: | :------: | :------: |
+| H        | 24       | 18 |
+| C        | 20       | 8  |
+| Ge       | 2        | 0  |
+| I        | 2        | 0  |
+| Atom     | 48       | 26 |
+| Electron | 126      | 50 |
+
+| System | Atoms | Electrons |
+| :----: | :---: | :-------: |
+| DCB6-Si + DCB6-Si              | 92 | 224 |
+| DCB6-Ge + DCB6-Ge              | 92 | 224 |
+| DCB6-Ge-I<sub>2</sub> + DCB6-Ge-I<sub>2</sub> | 96 | 252 |
+| DCB6-Ge-I<sub>2</sub> + Octane | 74 | 176 |
+
+</div>
