@@ -10,7 +10,7 @@ Philip Turner
 
 ## Introduction
 
-This literature review was created to investigate computational methods used to study mechanosynthesis. Before conducting it, the author learned that density functional theory (DFT) is the dominant simulation algorithm. The review covers every document published by Robert Freitas, Jr.
+This literature review was created to investigate computational methods used to study mechanosynthesis. Before conducting it, the author learned that density functional theory (DFT) is the dominant simulation algorithm. The goal is to understand how DFT and SEQM are used in practical mechanosynthesis research. The review should be finished before the author compiles, troubleshoots, or optimizes any quantum mechanics software.
 
 Data:
 - Each instance of supercomputer use should be thoroughly documented. 
@@ -22,7 +22,7 @@ Insights:
 - Inherent lack of parallelism in certain algorithms or at small system sizes (compute power per isolated simulation).
 - Rough quantification of energy error for different levels of theory, and what amount of error is tolerable.
 
-There are 15 research papers and 17 patent variants. Every research paper will be summarized in depth. Patents will be summarized in final form. An exception is US7687146, summarized from Robert's dedicated web page. Papers are sorted by date of publication; patents are sorted by date of filing.
+The review covers every document published by Robert Freitas, Jr. There are 15 research papers and 17 patent variants. Every research paper will be summarized in depth. Patents will be summarized in final form. An exception is US7687146, summarized from Robert's dedicated web page. Papers are sorted by date of publication; patents are sorted by date of filing.
 
 Papers:
   - [x] [Theoretical Analysis of a Carbon-Carbon Dimer Placement Tool for Diamond Mechanosynthesis](#2003--theoretical-analysis-of-a-carbon-carbon-dimer-placement-tool-for-diamond-mechanosynthesis)
@@ -290,5 +290,56 @@ In another Freitas paper, plane-wave DFT was used to study dimerization of uncap
 | DCB6-Ge + DCB6-Ge              | 92 | 224 |
 | DCB6-Ge-I<sub>2</sub> + DCB6-Ge-I<sub>2</sub> | 96 | 252 |
 | DCB6-Ge-I<sub>2</sub> + Octane | 74 | 176 |
+
+</div>
+
+### Step 2: Attach Tooltip Molecule to Deposition Surface in Preferred Orientation
+
+A suitable surface must be chosen, where the tooltip can be deposited face-down. The deposition density should be ~10<sup>5</sup> molecules per cm<sup>2</sup>. This range allows diamond crystals to be grown from the tooltip handles, with enough room to pick them apart with an SPM. The surface should not be capable of growing diamond through CVD. If it were, diamond crystals from the surface would interfere with crystals growing on the tooltips.
+
+AM1 used to measure “energy minima” of 3 different states of the tooltip. Either connected to the surface, or separated from the surface. The latter situation branches into two outcomes: dimer on tooltip (wanted) and dimer on surface (unwanted). All materials showed energetic favorability of not spontaneously dissociating with the surface. Some materials showed a preference to steal the acetylene group from the tooltip. Cu favored this outcome by 18 zJ. However, it was inferred that Ag and Au leave the acetylene on the tooltip. The computed energies were described as “crude estimates”. It is not a “full computational simulation” of the surface interaction.
+
+The tooltip can be attached to the surface in many ways:
+1. Ionize the tooltip molecule and bombard onto the surface, knocking off caps in the process.
+2. Attach with physical vapor deposition and remove the caps in a separate step.
+3. Employ traditional chemical reactions while dissolved in liquid.
+
+<div align="center">
+
+![Figures 7 and 8](./Documentation/DMSToolbuildProvPat_3.png)
+
+_Reactions that may attach the tooltip to the surface. Rendered as attaching to graphene, potentially due to the extreme ease of procedurally generating graphene sheets. Diamond and gold require more complex code to specify in atomic detail._
+
+</div>
+
+AM1 was used to energy-minimize the five systems in Figure 7. Absolute energy differences were reported for each system. In addition, the approach angle where the head-on approach would work was estimated. The measure was a range of angles, occupying ~1% of the total solid angle. Geometric hindrance makes the success rate of tooltip collisions only 1%.
+
+AM1 was used to estimate the energy required to remove both caps from the tooltip (PM3 or MNDO for caps with Na, Mg, Se). Energy to remove only one cap is half the energy for both caps. The energies came from a system with only a tooltip, and no surface. 74 single-point energy calculations were reported.
+
+> TODO: Add descriptions of sections 2.2.3 and 2.2.4.
+
+Surfaces characterized with quantum mechanics:
+* 10-atom cage of group (IV) atoms, not passivated
+* 4 copper atoms
+* 5 atoms of aluminum oxide
+* 3x3 arrangement of graphene unit cells (ambiguous)
+
+<div align="center">
+
+| Particle | Adamantane | Copper | Al<sub>2</sub>O<sub>3</sub> | Graphene |
+| :------: | :--------: | :----: | :-------------------------: | :------: |
+| C        | 10         | 0      | 0                           | ~14 |
+| O        | 0          | 0      | 3                           | 0   |
+| Al       | 0          | 0      | 2                           | 0   |
+| Cu       | 0          | 4      | 0                           | 0   |
+| Atom     | 10         | 4      | 5                           | ~14 |
+| Electron | 40         | ~44    | 36                          | ~56 |
+
+| System | Atoms | Electrons |
+| :----: | :---: | :-------: |
+| DCB6-Ge + Adamantane | 56 | 152 |
+| DCB6-Ge + Copper     | 50 | ~156 |
+| DCB6-Ge + Al<sub>2</sub>O<sub>3</sub> | 51 | 148 |
+| DCB6-Ge + Graphene   | ~60 | ~168 |
 
 </div>
