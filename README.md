@@ -45,7 +45,7 @@ Robert Freitas first started researching diamond mechanosynthesis in 2003, in co
 | :---: | :------: |
 | 1996&ndash;2003 | <b>Nanomedicine</b>, Vol. 1 & 2A |
 | 2003&ndash;2004 | <b>Mechanosynthesis</b>, Zyvex |
-| 2006&mdash;2008 | <b>Mechanosynthesis</b>, Nanofactory Collaboration |
+| 2006&ndash;2008 | <b>Mechanosynthesis</b>, Nanofactory Collaboration |
 | 2010&ndash;2012 | <b>Mechanosynthesis</b>, Kazan Federal University |
 | 2012&ndash;2015 | <b>Nanomedicine</b>, Vol. 2B & 3 (Unpublished) |
 | 2016&ndash;Present\* | <b>Mechanosynthesis</b>, CBN Nano Technologies |
